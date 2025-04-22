@@ -32,11 +32,11 @@ I'm always open to discussing ideas, collaborating on projects or just having a 
 - 😶‍🌫️ Telegram: [Häns](https://t.me/noticesa)
 
 ## itseunbinn Github Stats
-   ![itseunbinn GitHub stats](https://github-readme-stats.vercel.app/api?username=xeunBin&show_icons=true&theme=radical)
+   ![itseunbinn GitHub stats](https://github-readme-stats.vercel.app/api?username=itswill00&show_icons=true&theme=radical)
    
 ## 🤝 Let's Connect!
 Feel free to follow me or drop a message. Let's build amazing things together!
 
- ![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=xeunBin.visitor)
+ ![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=itswill00.visitor)
 
 Thank you for visiting my profile! 🎉
