@@ -7,7 +7,7 @@
 <h3 align="center">tinker, break, rebuild.</h3>
 
 <p align="center">
-  kernel tuning &nbsp;•&nbsp; Magisk / KernelSU modules &nbsp;•&nbsp; Telegram userbot<br/>
+  kernel tuning • Magisk / KernelSU modules • Telegram userbot<br/>
   <sub>HyperCore • HyperNet • HyperRing • HyperDL • HyperDump • PyGramX</sub>
 </p>
 
@@ -17,12 +17,9 @@
   <img src="https://img.shields.io/badge/shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white" />
   <img src="https://img.shields.io/badge/java-007396?style=flat-square&logo=openjdk&logoColor=white" />
   <img src="https://img.shields.io/badge/sqlite-003B57?style=flat-square&logo=sqlite&logoColor=white" />
-</p>
-
-<p align="center">
+  &nbsp;
   <img src="https://img.shields.io/badge/repos-28-24292f?style=flat-square" />
   <img src="https://img.shields.io/badge/commits-2.1k-24292f?style=flat-square" />
-  <img src="https://img.shields.io/badge/stars-1-24292f?style=flat-square" />
   <img src="https://img.shields.io/badge/followers-11-24292f?style=flat-square" />
 </p>
 
@@ -36,9 +33,8 @@
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=itswill00&theme=github_dark" />
 </p>
+
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=itswill00&theme=github_dark" />
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=itswill00&theme=github_dark" />
 </p>
-
-<sub>code speaks — surabaya</sub>
