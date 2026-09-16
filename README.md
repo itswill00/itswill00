@@ -16,5 +16,13 @@ tuning MT6789 (G99/G100) kernels, building Magisk/KernelSU modules, and a Telegr
 
 `python` `c` `shell` `java` — `termux` `sqlite` `anykernel3`
 
-—
-<sub>minimal — code speaks</sub>
+ —
+ 
+<p align="center">
+  <img src="https://img.shields.io/badge/repos-28-24292f?style=flat-square" />
+  <img src="https://img.shields.io/badge/commits-2.1k-24292f?style=flat-square" />
+  <img src="https://img.shields.io/badge/followers-11-24292f?style=flat-square" />
+  <img src="https://img.shields.io/badge/stars-1-24292f?style=flat-square" />
+</p>
+
+<sub>28 repos • 2.1k contributions • 11 followers — code speaks</sub>
