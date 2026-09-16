@@ -34,11 +34,11 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=itswill00&show_icons=true&hide_border=true&bg_color=00000000&title_color=3DDC84&text_color=c9d1d9&icon_color=3DDC84&hide=issues&count_private=true" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=itswill00&theme=github_dark" />
 </p>
-
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=itswill00&layout=compact&hide_border=true&bg_color=00000000&title_color=3DDC84&text_color=c9d1d9&langs_count=6" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=itswill00&theme=github_dark" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=itswill00&theme=github_dark" />
 </p>
 
 <sub>code speaks — surabaya</sub>
