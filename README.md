@@ -7,6 +7,10 @@
 <h3 align="center">tinker, break, rebuild.</h3>
 
 <p align="center">
+  <em>kernel tuning for Helio G99, Magisk/KernelSU modules, and a Telegram userbot that runs where others give up — on a phone.</em>
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/python-3776AB?style=flat-square&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/c-A8B9CC?style=flat-square&logo=c&logoColor=white" />
   <img src="https://img.shields.io/badge/shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white" />
@@ -19,10 +23,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/itswill00/PyGramX"><img src="https://img.shields.io/badge/PyGramX-userbot-0088cc?style=flat-square&logo=telegram&logoColor=white" /></a>
-  <a href="https://github.com/itswill00/hypercore"><img src="https://img.shields.io/badge/HyperCore-kernel-ff6b35?style=flat-square" /></a>
-  <a href="https://github.com/itswill00/HyperNet"><img src="https://img.shields.io/badge/HyperNet-network-6366f1?style=flat-square" /></a>
-  <a href="https://github.com/itswill00/pyrogram"><img src="https://img.shields.io/badge/pyrogram-fork-24292f?style=flat-square" /></a>
+  small, fast, no bloat — if it can be a shell one-liner, it stays a one-liner.<br/>
+  <a href="https://github.com/itswill00/PyGramX">PyGramX</a> • <a href="https://github.com/itswill00/hypercore">HyperCore</a> • <a href="https://github.com/itswill00/HyperNet">HyperNet</a> • <a href="https://github.com/itswill00/pyrogram">pyrogram fork</a>
 </p>
 
 <p align="center">
