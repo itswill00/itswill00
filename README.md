@@ -33,3 +33,8 @@
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=itswill00&theme=github_dark" />
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=itswill00&theme=github_dark" />
 </p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=itswill00&theme=github_dark" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=itswill00&theme=github_dark&utcOffset=7" />
+</p>
