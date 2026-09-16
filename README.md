@@ -23,8 +23,7 @@
 </p>
 
 <p align="center">
-  small, fast, no bloat — if it can be a shell one-liner, it stays a one-liner.<br/>
-  <a href="https://github.com/itswill00/PyGramX">PyGramX</a> • <a href="https://github.com/itswill00/hypercore">HyperCore</a> • <a href="https://github.com/itswill00/HyperNet">HyperNet</a> • <a href="https://github.com/itswill00/pyrogram">pyrogram fork</a>
+  <em>small, fast, no bloat — if it can be a shell one-liner, it stays a one-liner.</em>
 </p>
 
 <p align="center">
