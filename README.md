@@ -1,29 +1,20 @@
-<p align="center">
-  <img src="https://img.shields.io/badge/Android-Modding-3DDC84?style=flat-square&logo=android&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kernel-MT6789%20G99%2FG100-ff6b35?style=flat-square" />
-  <img src="https://img.shields.io/badge/Pyrogram-Patched-0088cc?style=flat-square&logo=telegram&logoColor=white" />
-  <img src="https://img.shields.io/badge/Termux-ARM64-000000?style=flat-square&logo=android&logoColor=white" />
-</p>
+hi, i'm will — oprek android di Surabaya
 
-<h3 align="center">itswill00 — Android tinkerer • PyGramX • Hyper* mods</h3>
+kernel MT6789 (G99/G100), Magisk/KernelSU modules, sama userbot Telegram
 
 <p align="center">
-  Surabaya • kernel & governor tuning, download/network/ring modules • userbot with companion bot<br/>
-  <a href="https://github.com/itswill00/PyGramX">PyGramX</a> • <a href="https://github.com/itswill00/pyrogram">pyrogram fork</a> • HyperCore / HyperNet / HyperRing / HyperDL / HyperDump
+  <img src="https://img.shields.io/badge/HyperCore-MT6789-ff6b35?style=flat-square" />
+  <img src="https://img.shields.io/badge/PyGramX-userbot-0088cc?style=flat-square" />
+  <img src="https://img.shields.io/badge/Termux-ARM64-000000?style=flat-square" />
 </p>
 
-### Focus
-- **HyperCore / HyperRing / HyperNet / HyperDL / HyperDump** — Magisk/KernelSU modules for MT6789 (Helio G99)
-- **PyGramX** — modular Telegram userbot + companion bot (Pyrogram, Python 3.14), dual-client routing, watchdog
-- **Tooling** — payload dumper, opencode patches, ImGui-Alpha
+**lagi ngerjain**
+- [HyperCore](https://github.com/itswill00/hypercore) — governor & kernel tuning G99
+- [HyperNet](https://github.com/itswill00/HyperNet) / [HyperRing](https://github.com/itswill00/HyperRing) / HyperDL / HyperDump — suite modul Hyper*
+- [PyGramX](https://github.com/itswill00/PyGramX) — userbot modular + companion bot (pyrogram fork)
+- [opencode-reasoning-patch](https://github.com/itswill00/opencode-reasoning-patch) — fix thinking stuck
 
-### Stack
-`Python` `C` `Shell` `Java` `Go` `Vue` • `Magisk` `KernelSU` `AnyKernel3` • `Termux` `SQLite WAL`
+`python` `c` `shell` `java` — `termux` `sqlite` `anykernel3`
 
-### Pins
-`hypercore` `HyperNet` `HyperRing` `PyGramX` `opencode-reasoning-patch` `pyrogram`
-
-<!--
-itswill00/itswill00 is a special repo — its README shows on your profile.
-Keep it short: badges flat-square centered, no ═══ dividers, zero emoji in commits.
--->
+—
+<sub>keep it minimal — code > words</sub>
