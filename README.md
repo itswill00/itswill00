@@ -1,6 +1,6 @@
-hi, i'm will — oprek android di Surabaya
+hi, i'm will — android tinkerer from Surabaya
 
-kernel MT6789 (G99/G100), Magisk/KernelSU modules, sama userbot Telegram
+tuning MT6789 (G99/G100) kernels, building Magisk/KernelSU modules, and a Telegram userbot
 
 <p align="center">
   <img src="https://img.shields.io/badge/HyperCore-MT6789-ff6b35?style=flat-square" />
@@ -8,13 +8,13 @@ kernel MT6789 (G99/G100), Magisk/KernelSU modules, sama userbot Telegram
   <img src="https://img.shields.io/badge/Termux-ARM64-000000?style=flat-square" />
 </p>
 
-**lagi ngerjain**
-- [HyperCore](https://github.com/itswill00/hypercore) — governor & kernel tuning G99
-- [HyperNet](https://github.com/itswill00/HyperNet) / [HyperRing](https://github.com/itswill00/HyperRing) / HyperDL / HyperDump — suite modul Hyper*
-- [PyGramX](https://github.com/itswill00/PyGramX) — userbot modular + companion bot (pyrogram fork)
-- [opencode-reasoning-patch](https://github.com/itswill00/opencode-reasoning-patch) — fix thinking stuck
+**working on**
+- [HyperCore](https://github.com/itswill00/hypercore) — governor & kernel tuning for G99
+- [HyperNet](https://github.com/itswill00/HyperNet) / [HyperRing](https://github.com/itswill00/HyperRing) / HyperDL / HyperDump — Hyper* module suite
+- [PyGramX](https://github.com/itswill00/PyGramX) — modular userbot + companion bot (pyrogram fork)
+- [opencode-reasoning-patch](https://github.com/itswill00/opencode-reasoning-patch) — fix for thinking stuck
 
 `python` `c` `shell` `java` — `termux` `sqlite` `anykernel3`
 
 —
-<sub>keep it minimal — code > words</sub>
+<sub>minimal — code speaks</sub>
