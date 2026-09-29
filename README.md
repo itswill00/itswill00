@@ -1,13 +1,12 @@
 <p align="center">
   <img src="https://img.shields.io/badge/will-android%20tinkerer-3DDC84?style=flat-square&logo=android&logoColor=white" />
   <img src="https://img.shields.io/badge/Surabaya-MT6789-ff6b35?style=flat-square" />
-  <img src="https://img.shields.io/badge/Termux-ARM64-000000?style=flat-square" />
 </p>
 
 <h3 align="center">tinker, break, rebuild.</h3>
 
 <p align="center">
-  <em>kernel tuning for Helio G99, Magisk/KernelSU modules, and a Telegram userbot that runs where others give up — on a phone.</em>
+  <em>It's not about having, but about maintaining</em>
 </p>
 
 <p align="center">
