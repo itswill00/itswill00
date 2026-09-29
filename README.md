@@ -3,8 +3,6 @@
   <img src="https://img.shields.io/badge/Surabaya-MT6789-ff6b35?style=flat-square" />
 </p>
 
-<h3 align="center">tinker, break, rebuild.</h3>
-
 <p align="center">
   <em>It's not about having, but about maintaining</em>
 </p>
@@ -19,10 +17,6 @@
   <img src="https://img.shields.io/badge/repos-28-24292f?style=flat-square" />
   <img src="https://img.shields.io/badge/commits-2.1k-24292f?style=flat-square" />
   <img src="https://img.shields.io/badge/followers-11-24292f?style=flat-square" />
-</p>
-
-<p align="center">
-  <em>small, fast, no bloat — if it can be a shell one-liner, it stays a one-liner.</em>
 </p>
 
 <p align="center">
