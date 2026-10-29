@@ -27,8 +27,10 @@
 
 ## What I work on
 
-Redmi Note 14 4G (`tanzanite`, MediaTek Helio G99 / MT6789). Everything below exists because Xiaomi
-never released the kernel source for this device, so the pieces had to be recovered from firmware.
+Two Xiaomi phones, two very different problems. On the Redmi Note 14 4G (`tanzanite`, MT6789)
+Xiaomi never released the kernel source, so the pieces had to be recovered from firmware. On the
+Redmi Note 8 (`ginkgo`, SM6125) the source is public, and the work is finding what the existing
+ports silently get wrong.
 
 <table>
 <tr>
@@ -45,6 +47,19 @@ from the `vendor_dlkm` partition, recovery installer with AVB handling.
 </td>
 <td width="50%" valign="top">
 
+### [ginkgo-ubuntu-touch](https://github.com/itswill00/ginkgo-ubuntu-touch)
+Ubuntu Touch 20.04 / Halium 10. Kernel 4.14 CAF NICOBAR built natively on aarch64. Found six
+upstream overlay defects, including a fingerprint HAL that never started.
+
+<img src="https://img.shields.io/github/v/release/itswill00/ginkgo-ubuntu-touch?style=flat-square&label=release&color=77216F" />
+<img src="https://img.shields.io/github/actions/workflow/status/itswill00/ginkgo-ubuntu-touch/validate.yml?branch=main&style=flat-square&label=validate" />
+<img src="https://img.shields.io/badge/Halium-10-4E9A06?style=flat-square" />
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 ### [android_kernel_xiaomi_tanzanite](https://github.com/itswill00/android_kernel_xiaomi_tanzanite)
 Kernel bring-up by reverse engineering: GKI 5.10 configs, DTB, and the module layout the stock
 firmware actually uses.
@@ -53,8 +68,6 @@ firmware actually uses.
 <img src="https://img.shields.io/badge/SoC-MT6789-8E44AD?style=flat-square" />
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### [kernelis](https://github.com/itswill00/kernelis)
@@ -63,6 +76,8 @@ Android root kernel and system manager. Kotlin, capability-based.
 <img src="https://img.shields.io/badge/kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" />
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### [HyperDL](https://github.com/itswill00/HyperDL)
@@ -70,6 +85,9 @@ Minimalist media downloader module for rooted Android devices. Releases at
 [HyperDL-Release](https://github.com/itswill00/HyperDL-Release).
 
 <img src="https://img.shields.io/badge/python-3776AB?style=flat-square&logo=python&logoColor=white" />
+
+</td>
+<td width="50%" valign="top">
 
 </td>
 </tr>
@@ -90,6 +108,12 @@ From the tanzanite port, because the reasoning matters more than the result:
   that matters, and lkpatcher cannot patch this device (ARM32 patch set, AArch64 LK).
 - **[Changelog](https://github.com/itswill00/tanzanite-ubuntu-touch/blob/main/CHANGELOG.md)** —
   written as cause and effect, not as a diff summary.
+- **[Port landscape](https://github.com/itswill00/ginkgo-ubuntu-touch/blob/main/docs/PORT_LANDSCAPE.md)** —
+  four Ubuntu Touch trees already exist for the Redmi Note 8 and all four are broken in different
+  ways. Why this is a fifth rather than a fork, and what each one gets wrong.
+- **[ginkgo build notes](https://github.com/itswill00/ginkgo-ubuntu-touch/blob/main/docs/BUILD_NOTES.md)** —
+  the ARM32 compat vDSO is assembled by the wrong toolchain because a Makefile passes a directory
+  where clang expects a prefix. One line, four hours.
 
 ---
 
