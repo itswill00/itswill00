@@ -27,10 +27,14 @@
 
 ## What I work on
 
-Two Xiaomi phones, two very different problems. On the Redmi Note 14 4G (`tanzanite`, MT6789)
-Xiaomi never released the kernel source, so the pieces had to be recovered from firmware. On the
-Redmi Note 8 (`ginkgo`, SM6125) the source is public, and the work is finding what the existing
-ports silently get wrong.
+Three Xiaomi phones, three different kinds of problem. On the Redmi Note 14 4G (`tanzanite`,
+MT6789) Xiaomi never released the kernel source, so the pieces had to be recovered from firmware.
+On the Redmi Note 8 (`ginkgo`, SM6125) the source is public, and the work is finding what the
+existing ports silently get wrong. And on the same phone, running Apple's kernel instead of
+Linux, the work is a hardware map that has never been written down.
+
+The two ginkgo projects are deliberately one above the other: same board, same device tree, and
+the second one exists because reading that tree carefully turned up facts the first one needed.
 
 <table>
 <tr>
@@ -89,6 +93,15 @@ Minimalist media downloader module for rooted Android devices. Releases at
 </td>
 <td width="50%" valign="top">
 
+### [ios-ginkgo](https://github.com/itswill00/ios-ginkgo)
+Apple's XNU kernel on the same Redmi Note 8. A hardware probe and an honest map of why this board
+is harder than the ports that work: eMMC where every port expects UFS, and ARMv8.0 cores that
+cannot use the 16 KB pages iOS is built for.
+
+<img src="https://img.shields.io/github/v/release/itswill00/ios-ginkgo?style=flat-square&label=release&color=77216F" />
+<img src="https://img.shields.io/github/license/itswill00/ios-ginkgo?style=flat-square&color=blue" />
+<img src="https://img.shields.io/badge/status-probe%20only-critical?style=flat-square" />
+
 </td>
 </tr>
 </table>
@@ -114,6 +127,14 @@ From the tanzanite port, because the reasoning matters more than the result:
 - **[ginkgo build notes](https://github.com/itswill00/ginkgo-ubuntu-touch/blob/main/docs/BUILD_NOTES.md)** —
   the ARM32 compat vDSO is assembled by the wrong toolchain because a Makefile passes a directory
   where clang expects a prefix. One line, four hours.
+- **[Hardware map](https://github.com/itswill00/ios-ginkgo/blob/ginkgo-port/devices/ginkgo/profile.py)** —
+  every address the Redmi Note 8 needs to boot a non-Linux kernel, with the device tree node each
+  one came from. Written as data with the reasoning attached, so a wrong value can be traced back
+  to an artifact instead of an opinion.
+- **[Observed vs guessed](https://github.com/itswill00/ios-ginkgo/blob/ginkgo-port/NOTES-ginkgo.md)** —
+  the handoff separates what was read out of a device tree from what was inferred from position.
+  Three of the six hardware facts in that port started as guesses, and saying so is what keeps the
+  other three trustworthy.
 
 ---
 
